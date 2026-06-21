@@ -118,4 +118,5 @@ return {
   { require "plugins.configs.alpha"},
   {require "plugins.configs.lualine"},
   {require "plugins.configs.dressing"},
+  {require "plugins.configs.lazygit"},
 }
