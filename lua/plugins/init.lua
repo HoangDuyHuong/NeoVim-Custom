@@ -55,7 +55,6 @@ return {
     "nvim-treesitter/nvim-treesitter",
     build = ":TSUpdate",
     config = function()
-      require "plugins.configs.treesitter"
     end,
   },
 
@@ -119,4 +118,5 @@ return {
   {require "plugins.configs.lualine"},
   {require "plugins.configs.dressing"},
   {require "plugins.configs.lazygit"},
+  {require "plugins.configs.neoscroll"}
 }

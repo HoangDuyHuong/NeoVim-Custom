@@ -44,4 +44,5 @@ map("n", "<leader>sh", "<C-w>s", { desc = "split windown Horizontally" })
 map("n", "<leader>se", "<C-w>=", { desc = "split windown vertically" })
 map("n", "<leader>sx", "<cmd>close<CR>", { desc = "Close current split" })
 
-
+-- LazyGit
+map("n", "<leader>lg", "<cmd> LazyGit <CR>", { desc = "Open Lazygit"})
